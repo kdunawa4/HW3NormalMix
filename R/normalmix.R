@@ -1,5 +1,4 @@
-#' Mixture CDF function with user-defined parameters
-#'
+
 #' This function computes the CDF of a mixture distribution.
 #' @param q A numeric value where the CDF is evaluated.
 #' @param mean1 The mean of the first normal distribution
@@ -45,7 +44,7 @@ rnormmix <- function(n, mean1, sd1, mean2, sd2, mixprob) {
   return(X)
 }
 
-#' This function generates a random sample from a mixture of two normal distributions.
+#' This function produces quantiles from a mixture of two normal distributions.
 #' @param p a value for the quantile to be calculated.
 #' @param mean1 The mean of the first normal distribution
 #' @param sd1 The standard deviation corresponding to the first normal distribution.
