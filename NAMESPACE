@@ -1,0 +1,7 @@
+exportPattern("^[[:alpha:]]+")
+
+export(pnormmix)
+export(dnormmix)
+export(rnormmix)
+export(qnormmix)
+export(myqnormmix)
