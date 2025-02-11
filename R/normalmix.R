@@ -6,7 +6,7 @@
 #' @param mean2 The mean of the second normal distribution.
 #' @param sd2 The second corresponding standard deviation.
 #' @param mixprob The probability of the first distribution occurring.
-#' @return A numeric value of the CDF at the original `q`.
+#' @return A numeric value of the CDF at the original q.
 #' @export
 
 pnormmix <- function(q, mean1, sd1, mean2, sd2, mixprob) {
@@ -20,7 +20,7 @@ pnormmix <- function(q, mean1, sd1, mean2, sd2, mixprob) {
 #' @param mean2 The mean of the second normal distribution.
 #' @param sd2 The second corresponding standard deviation.
 #' @param mixprob The probability of the first distribution occurring.
-#' @return A numeric value for the PDF at the original `x`.
+#' @return A numeric value for the PDF at the original x.
 #' @export
 
 dnormmix <- function(x, mean1, sd1, mean2, sd2, mixprob) {
