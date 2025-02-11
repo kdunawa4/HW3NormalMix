@@ -39,7 +39,7 @@ dnormmix <- function(x, mean1, sd1, mean2, sd2, mixprob) {
 #' @export
 
 
-rnormmix <- function(n, mean1 = 1, sd1 = 2, mean2 = 5, sd2 = 0.5, mixprob = 2/3) {
+rnormmix <- function(n, mean1, sd1, mean2, sd2, mixprob) {
   coin <- sample(c("H", "T"), size = n, prob = c(mixprob, 1 - mixprob), replace = TRUE)
   X <- ifelse(coin == "H", rnorm(n, mean = mean1, sd = sd1), rnorm(n, mean = mean2, sd = sd2))
   return(X)
