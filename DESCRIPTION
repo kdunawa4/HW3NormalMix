@@ -4,7 +4,7 @@ Title: Normal Mixture Models
 Version: 0.1.0
 Authors@R:  person("Keeli", "Dunaway", email = "kdunawa4@kent.edu", role = c("aut", "cre"))
 Description: A package with functions for normal distribution mixtures.
-License: What license is it under?
+License: MIT License
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.2
